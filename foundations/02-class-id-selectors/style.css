@@ -1,0 +1,19 @@
+p {
+    background-color: #f56786;
+    font-family: Verdana, "Dejavu Sans", sans-serif;
+}
+
+#pen15 {
+    color:blue;
+    font-size: 36px;
+}
+
+#word {
+    font-size: 24px;
+}
+
+#how2 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}

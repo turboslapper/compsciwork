@@ -2,6 +2,10 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   background: #eee;
@@ -26,7 +30,7 @@ body {
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
-  font-style: italic;
+  font-style: italic;  
 }
 
 button {
@@ -45,4 +49,28 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin-right: auto;
+  margin-left: 0px;
+  padding-left: 6px;
+  width: 250px;
+  justify-content: space-evenly;
+}
+
+.header {
+ display: flex;
+ align-items: center;
+ margin:0;
+}
+
+.notifications {
+  margin-right: 16px;
+}
+
+.profile-image {
+  margin-right: 8px;
+}
+
+.logo {
+  margin-left: 8px;
 }

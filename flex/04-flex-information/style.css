@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -10,6 +17,7 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
 
 /* do not edit this footer */
@@ -23,4 +31,35 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+
+.spice {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 52px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.barberry,
+.chilli,
+.pepper,
+.saffron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text {
+  text-align: center;
 }
